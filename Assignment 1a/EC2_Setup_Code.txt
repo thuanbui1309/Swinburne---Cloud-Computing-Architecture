@@ -1,0 +1,14 @@
+#!/bin/bash
+yum update -y
+amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+service httpd start
+yum install -y httpd mariadb-server php-mbstring php-xml
+sed -i "s/upload_max_filesize = 2M/upload_max_filesize = 10M/g" /etc/php.ini
+systemctl start httpd
+systemctl enable httpd
+usermod -a -G apache ec2-user
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+find /var/www -type d -exec sudo chmod 2775 {} \;
+find /var/www -type f -exec sudo chmod 0664 {} \;
+echo "<?php echo '<h2>Welcome to COS80001. Installed PHP version: ' . phpversion() . '</h2>'; ?>" > /var/www/html/phpinfo.php

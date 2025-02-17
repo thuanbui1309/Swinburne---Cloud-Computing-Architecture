@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-07-26T14:38:43.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="S3R0EofBHP1IUjQE3Yen" version="24.4.6" type="device">
+  <diagram name="Page-1" id="F-DVUuITQ6VZuM2_PP0s">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LZa_qslWxHRSV4TyexE8-3" value="" style="sketch=0;outlineConnect=0;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-5" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;rounded=0;strokeColor=#1D181C;dashPattern=1 2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="1040" as="sourcePoint" />
+            <mxPoint x="158.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-6" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;" parent="1" vertex="1">
+          <mxGeometry x="760" y="80" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-7" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;rounded=0;strokeColor=#1D181C;dashPattern=1 2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799" y="1040" as="sourcePoint" />
+            <mxPoint x="798.5" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-9" value="Username and Password" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="480" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-10" value="SRP caculations" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=1;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="240" as="sourcePoint" />
+            <mxPoint x="480" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="241" />
+              <mxPoint x="560" y="241" />
+              <mxPoint x="560" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-12" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=4;rounded=0;strokeColor=#1D181C;dashPattern=1 2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478" y="1040" as="sourcePoint" />
+            <mxPoint x="478.5" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-16" value="" style="sketch=0;outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="420" y="85" width="100" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-17" value="InitializeAuth&lt;div&gt;USER_SRP_AUTH&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="400" as="sourcePoint" />
+            <mxPoint x="800" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-18" value="Challenge" style="html=1;verticalAlign=bottom;endArrow=none;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-19" value="Prompt" style="html=1;verticalAlign=bottom;endArrow=none;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="480" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-20" value="Respond" style="html=1;verticalAlign=bottom;endArrow=classic;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=1;startArrow=none;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="640" as="sourcePoint" />
+            <mxPoint x="480" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-21" value="RespondToAuthChallenge" style="html=1;verticalAlign=bottom;endArrow=classic;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=1;startArrow=none;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="720" as="sourcePoint" />
+            <mxPoint x="800" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-22" value="Access, ID, refresh token" style="html=1;verticalAlign=bottom;endArrow=none;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="800" as="sourcePoint" />
+            <mxPoint x="800" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-23" value="Store Tokens" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=1;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="800" as="sourcePoint" />
+            <mxPoint x="480" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="801" />
+              <mxPoint x="400" y="801" />
+              <mxPoint x="400" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZa_qslWxHRSV4TyexE8-24" value="App content" style="html=1;verticalAlign=bottom;endArrow=none;endSize=8;curved=0;rounded=0;strokeColor=#000000;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeWidth=3;fontSize=15;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="960" as="sourcePoint" />
+            <mxPoint x="480" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfqyAOANBN9B4sdKrD4V-1" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="119" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mfqyAOANBN9B4sdKrD4V-2" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Application&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="420" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mfqyAOANBN9B4sdKrD4V-3" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;AWS Cognito&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="729" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
